@@ -22,7 +22,7 @@ obfuscate = True # Obfuscate the payload
 hideConsole = True # Hide the console when the payload is ran
 forceRead = False
 virtualenvir = False
-inputFileName = "Client-built" # Input file name
+inputFileName = "Dark Client" # Input file name
 comboBoxFileType = "EXE" # File type
 
 def build():
